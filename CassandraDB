@@ -14,6 +14,8 @@ SELECT * FROM mcdonald.Building;
 SELECT * FROM mcdonald.Role;
 SELECT * FROM mcdonald.Person;
 SELECT * FROM mcdonald.Discount;
+SELECT * FROM mcdonald.product;
+
 
 --Create "Building" Statements
 CREATE TABLE IF NOT EXISTS mcdonald.Building (
