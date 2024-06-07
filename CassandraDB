@@ -1,0 +1,10 @@
+CREATE TABLE IF NOT EXISTINGS mcdonald.address (
+    pid int PRIMARY KEY,
+    AddressID TEXT,
+    Country TEXT,
+    State TEXT,
+    City TEXT,
+    ZipCode TEXT,
+    StreetAddress TEXT,
+    AddressType TEXT
+);
