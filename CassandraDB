@@ -56,11 +56,6 @@ VALUES (15, 15, 'United States', 'Wisconsin', 'Prescott', 54021, '234 Oak Avenue
 INSERT INTO mcdonald.address (pid, AddressID, Country, State, City, ZipCode, StreetAddress, AddressType) 
 VALUES (16, 16, 'United States', 'Minnesota', 'Mankato', 56022, '567 Pine Street', 'Personal');
 
-
-
-
-
-
 INSERT INTO mcdonald.address (pid, AddressID, Country, State, City, ZipCode, StreetAddress, AddressType) 
 VALUES (17, 17, 'United States', 'Minnesota', 'Plymouth', 56023, '890 Maple Boulevard', 'Personal');
 
