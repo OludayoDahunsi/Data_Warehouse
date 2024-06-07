@@ -1,133 +1,48 @@
 
 --Address Insert Statements
-INSERT INTO mcdonald.address (pid, AddressID, Country, State, City, ZipCode, StreetAddress, AddressType) 
-VALUES (2, 2, 'United States', 'Minnesota', 'Mankato', 56001, '456 Oak Avenue', 'Business');
-
-INSERT INTO mcdonald.address (pid, AddressID, Country, State, City, ZipCode, StreetAddress, AddressType) 
-VALUES (3, 3, 'United States', 'Minnesota', 'Rochester', 55101, '789 Pine Road', 'Business');
-
-INSERT INTO mcdonald.address (pid, AddressID, Country, State, City, ZipCode, StreetAddress, AddressType) 
-VALUES (4, 4, 'United States', 'Minnesota', 'Lakeview', 55802, '101 Elm Lane', 'Business');
-
-INSERT INTO mcdonald.address (pid, AddressID, Country, State, City, ZipCode, StreetAddress, AddressType) 
-VALUES (5, 5, 'United States', 'Minnesota', 'Rochester', 55101, '321 Cedar Boulevard', 'Business');
-
-INSERT INTO mcdonald.address (pid, AddressID, Country, State, City, ZipCode, StreetAddress, AddressType) 
-VALUES (6, 6, 'United States', 'Wisconsin', 'Prescott', 54021, '567 Willow Street', 'Personal');
-
-INSERT INTO mcdonald.address (pid, AddressID, Country, State, City, ZipCode, StreetAddress, AddressType) 
-VALUES (7, 7, 'United States', 'Minnesota', 'Rochester', 56001, '890 Birch Avenue', 'Personal');
-
-INSERT INTO mcdonald.address (pid, AddressID, Country, State, City, ZipCode, StreetAddress, AddressType) 
-VALUES (8, 8, 'United States', 'Minnesota', 'Lakeview', 56002, '234 Oak Lane', 'Personal');
-
-INSERT INTO mcdonald.address (pid, AddressID, Country, State, City, ZipCode, StreetAddress, AddressType) 
-VALUES (9, 9, 'United States', 'Minnesota', 'Mankato', 56003, '901 Maple Road', 'Personal');
-
-INSERT INTO mcdonald.address (pid, AddressID, Country, State, City, ZipCode, StreetAddress, AddressType) 
-VALUES (10, 10, 'United States', 'Minnesota', 'Plymouth', 56006, '345 Pine Court', 'Personal');
-
-INSERT INTO mcdonald.address (pid, AddressID, Country, State, City, ZipCode, StreetAddress, AddressType) 
-VALUES (11, 11, 'United States', 'Minnesota', 'Rochester', 56007, '678 Cedar Way', 'Personal');
-
-INSERT INTO mcdonald.address (pid, AddressID, Country, State, City, ZipCode, StreetAddress, AddressType) 
-VALUES (12, 12, 'United States', 'Minnesota', 'Plymouth', 56010, '123 Elm Drive', 'Personal');
-
-INSERT INTO mcdonald.address (pid, AddressID, Country, State, City, ZipCode, StreetAddress, AddressType) 
-VALUES (13, 13, 'United States', 'Minnesota', 'Lakeview', 56011, '456 Spruce Circle', 'Personal');
-
-INSERT INTO mcdonald.address (pid, AddressID, Country, State, City, ZipCode, StreetAddress, AddressType) 
-VALUES (14, 14, 'United States', 'Minnesota', 'Mankato', 56012, '789 Birch Lane', 'Personal');
-
-INSERT INTO mcdonald.address (pid, AddressID, Country, State, City, ZipCode, StreetAddress, AddressType) 
-VALUES (15, 15, 'United States', 'Wisconsin', 'Prescott', 54021, '234 Oak Avenue', 'Personal');
-
-INSERT INTO mcdonald.address (pid, AddressID, Country, State, City, ZipCode, StreetAddress, AddressType) 
-VALUES (16, 16, 'United States', 'Minnesota', 'Mankato', 56022, '567 Pine Street', 'Personal');
-
-INSERT INTO mcdonald.address (pid, AddressID, Country, State, City, ZipCode, StreetAddress, AddressType) 
-VALUES (17, 17, 'United States', 'Minnesota', 'Plymouth', 56023, '890 Maple Boulevard', 'Personal');
-
-INSERT INTO mcdonald.address (pid, AddressID, Country, State, City, ZipCode, StreetAddress, AddressType) 
-VALUES (18, 18, 'United States', 'Minnesota', 'Rochester', 56024, '123 Cedar Road', 'Personal');
-
-INSERT INTO mcdonald.address (pid, AddressID, Country, State, City, ZipCode, StreetAddress, AddressType) 
-VALUES (20, 20, 'United States', 'Minnesota', 'Plymouth', 56025, '456 Elm Court', 'Personal');
-
-INSERT INTO mcdonald.address (pid, AddressID, Country, State, City, ZipCode, StreetAddress, AddressType) 
-VALUES (21, 21, 'United States', 'Minnesota', 'Lakeview', 56026, '901 Willow Lane', 'Personal');
-
-INSERT INTO mcdonald.address (pid, AddressID, Country, State, City, ZipCode, StreetAddress, AddressType) 
-VALUES (22, 22, 'United States', 'Minnesota', 'Mankato', 56027, '234 Birch Circle', 'Personal');
-
-INSERT INTO mcdonald.address (pid, AddressID, Country, State, City, ZipCode, StreetAddress, AddressType) 
-VALUES (23, 23, 'United States', 'Minnesota', 'Rochester', 56028, '567 Oak Way', 'Personal');
-
-INSERT INTO mcdonald.address (pid, AddressID, Country, State, City, ZipCode, StreetAddress, AddressType) 
-VALUES (24, 24, 'United States', 'Minnesota', 'Plymouth', 56029, '890 Maple Drive', 'Personal');
-
-INSERT INTO mcdonald.address (pid, AddressID, Country, State, City, ZipCode, StreetAddress, AddressType) 
-VALUES (25, 25, 'United States', 'Minnesota', 'Lakeview', 56030, '123 Pine Road', 'Personal');
-
-INSERT INTO mcdonald.address (pid, AddressID, Country, State, City, ZipCode, StreetAddress, AddressType) 
-VALUES (26, 26, 'United States', 'Wisconsin', 'Prescott', 54021, '456 Cedar Street', 'Personal');
-
-INSERT INTO mcdonald.address (pid, AddressID, Country, State, City, ZipCode, StreetAddress, AddressType) 
-VALUES (27, 27, 'United States', 'Minnesota', 'Plymouth', 54021, '789 Elm Avenue', 'Personal');
-
-INSERT INTO mcdonald.address (pid, AddressID, Country, State, City, ZipCode, StreetAddress, AddressType) 
-VALUES (28, 28, 'United States', 'Alabama', 'Birmingham', 35203, '123 Magnolia Street', 'Personal');
-
-INSERT INTO mcdonald.address (pid, AddressID, Country, State, City, ZipCode, StreetAddress, AddressType) 
-VALUES (29, 29, 'United States', 'Texas', 'Austin', 78701, '8815 Dill Street', 'Personal');
-
-INSERT INTO mcdonald.address (pid, AddressID, Country, State, City, ZipCode, StreetAddress, AddressType) 
-VALUES (30, 30, 'United States', 'Oregon', 'Portland', 97201, '1515 Green Ave', 'Personal');
-
-INSERT INTO mcdonald.address (pid, AddressID, Country, State, City, ZipCode, StreetAddress, AddressType) 
-VALUES (31, 50, 'United States', 'Alabama', 'Birmingham', 35203, '125 Magnolia Street', 'Business');
-
-INSERT INTO mcdonald.address (pid, AddressID, Country, State, City, ZipCode, StreetAddress, AddressType) 
-VALUES (32, 51, 'United States', 'Texas', 'Austin', 78701, '456 Lone Star Avenue', 'Business');
-
-INSERT INTO mcdonald.address (pid, AddressID, Country, State, City, ZipCode, StreetAddress, AddressType) 
-VALUES (33, 52, 'United States', 'Oregon', 'Portland', 97201, '788 Evergreen Lane', 'Business');
-
-INSERT INTO mcdonald.address (pid, AddressID, Country, State, City, ZipCode, StreetAddress, AddressType) 
-VALUES (34, 53, 'United States', 'Vermont', 'Burlington', 5401, 'Maple Street', 'Business');
-
-INSERT INTO mcdonald.address (pid, AddressID, Country, State, City, ZipCode, StreetAddress, AddressType) 
-VALUES (35, 54, 'United States', 'Nevada', 'Las Vegas', 89101, 'Silverado Drive', 'Business');
-
-INSERT INTO mcdonald.address (pid, AddressID, Country, State, City, ZipCode, StreetAddress, AddressType) 
-VALUES (36, 55, 'Canada', 'Ontario', 'Toronto', 5832, '123 Maple Street', 'Business');
-
-INSERT INTO mcdonald.address (pid, AddressID, Country, State, City, ZipCode, StreetAddress, AddressType) 
-VALUES (37, 56, 'Brazil', 'Rio de Janeiro', 'Rio de Janeiro', '22041-010', 'Av. Copacabana, 456', 'Business');
-
-INSERT INTO mcdonald.address (pid, AddressID, Country, State, City, ZipCode, StreetAddress, AddressType) 
-VALUES (38, 57, 'Japan', 'Tokyo', 'Tokyo', 1000001, '789 Sakura Street', 'Business');
-
-INSERT INTO mcdonald.address (pid, AddressID, Country, State, City, ZipCode, StreetAddress, AddressType) 
-VALUES (39, 58, 'Australia', 'New South Wales', 'Sydney', 2000, '10 Bondi Road', 'Business');
-
-INSERT INTO mcdonald.address (pid, AddressID, Country, State, City, ZipCode, StreetAddress, AddressType) 
-VALUES (40, 59, 'Egypt', 'null', 'Cairo', 11511, '321 Nile Avenue', 'Business');
-
-INSERT INTO mcdonald.address (pid, AddressID, Country, State, City, ZipCode, StreetAddress, AddressType) 
-VALUES (41, 60, 'Norway', 'null', 'Oslo', 250, 'Fjordveien 15', 'Business');
-
-INSERT INTO mcdonald.address (pid, AddressID, Country, State, City, ZipCode, StreetAddress, AddressType) 
-VALUES (42, 61, 'Mexico', 'Mexico City', 'Mexico City', 6170, 'Calle Guadalajara 100', 'Business');
-
-INSERT INTO mcdonald.address (pid, AddressID, Country, State, City, ZipCode, StreetAddress, AddressType) 
-VALUES (43, 62, 'South Africa', 'null', 'Johannesburg', 2001, '25 Mandela Street', 'Business');
-
-INSERT INTO mcdonald.address (pid, AddressID, Country, State, City, ZipCode, StreetAddress, AddressType) 
-VALUES (44, 63, 'Russia', 'null', 'Moscow', 119019, '567 Red Square', 'Business');
-
-INSERT INTO mcdonald.address (pid, AddressID, Country, State, City, ZipCode, StreetAddress, AddressType) 
-VALUES (45, 64, 'India', 'null', 'New Delhi', 110001, '42 Gandhi Road', 'Business');
+INSERT INTO mcdonald.address (pid, AddressID, Country, State, City, ZipCode, StreetAddress, AddressType) VALUES (2, 2, 'United States', 'Minnesota', 'Mankato', 56001, '456 Oak Avenue', 'Business');
+INSERT INTO mcdonald.address (pid, AddressID, Country, State, City, ZipCode, StreetAddress, AddressType) VALUES (3, 3, 'United States', 'Minnesota', 'Rochester', 55101, '789 Pine Road', 'Business');
+INSERT INTO mcdonald.address (pid, AddressID, Country, State, City, ZipCode, StreetAddress, AddressType) VALUES (4, 4, 'United States', 'Minnesota', 'Lakeview', 55802, '101 Elm Lane', 'Business');
+INSERT INTO mcdonald.address (pid, AddressID, Country, State, City, ZipCode, StreetAddress, AddressType) VALUES (5, 5, 'United States', 'Minnesota', 'Rochester', 55101, '321 Cedar Boulevard', 'Business');
+INSERT INTO mcdonald.address (pid, AddressID, Country, State, City, ZipCode, StreetAddress, AddressType) VALUES (6, 6, 'United States', 'Wisconsin', 'Prescott', 54021, '567 Willow Street', 'Personal');
+INSERT INTO mcdonald.address (pid, AddressID, Country, State, City, ZipCode, StreetAddress, AddressType) VALUES (7, 7, 'United States', 'Minnesota', 'Rochester', 56001, '890 Birch Avenue', 'Personal');
+INSERT INTO mcdonald.address (pid, AddressID, Country, State, City, ZipCode, StreetAddress, AddressType) VALUES (8, 8, 'United States', 'Minnesota', 'Lakeview', 56002, '234 Oak Lane', 'Personal');
+INSERT INTO mcdonald.address (pid, AddressID, Country, State, City, ZipCode, StreetAddress, AddressType) VALUES (9, 9, 'United States', 'Minnesota', 'Mankato', 56003, '901 Maple Road', 'Personal');
+INSERT INTO mcdonald.address (pid, AddressID, Country, State, City, ZipCode, StreetAddress, AddressType) VALUES (10, 10, 'United States', 'Minnesota', 'Plymouth', 56006, '345 Pine Court', 'Personal');
+INSERT INTO mcdonald.address (pid, AddressID, Country, State, City, ZipCode, StreetAddress, AddressType) VALUES (11, 11, 'United States', 'Minnesota', 'Rochester', 56007, '678 Cedar Way', 'Personal');
+INSERT INTO mcdonald.address (pid, AddressID, Country, State, City, ZipCode, StreetAddress, AddressType) VALUES (12, 12, 'United States', 'Minnesota', 'Plymouth', 56010, '123 Elm Drive', 'Personal');
+INSERT INTO mcdonald.address (pid, AddressID, Country, State, City, ZipCode, StreetAddress, AddressType) VALUES (13, 13, 'United States', 'Minnesota', 'Lakeview', 56011, '456 Spruce Circle', 'Personal');
+INSERT INTO mcdonald.address (pid, AddressID, Country, State, City, ZipCode, StreetAddress, AddressType) VALUES (14, 14, 'United States', 'Minnesota', 'Mankato', 56012, '789 Birch Lane', 'Personal');
+INSERT INTO mcdonald.address (pid, AddressID, Country, State, City, ZipCode, StreetAddress, AddressType) VALUES (15, 15, 'United States', 'Wisconsin', 'Prescott', 54021, '234 Oak Avenue', 'Personal');
+INSERT INTO mcdonald.address (pid, AddressID, Country, State, City, ZipCode, StreetAddress, AddressType) VALUES (16, 16, 'United States', 'Minnesota', 'Mankato', 56022, '567 Pine Street', 'Personal');
+INSERT INTO mcdonald.address (pid, AddressID, Country, State, City, ZipCode, StreetAddress, AddressType) VALUES (17, 17, 'United States', 'Minnesota', 'Plymouth', 56023, '890 Maple Boulevard', 'Personal');
+INSERT INTO mcdonald.address (pid, AddressID, Country, State, City, ZipCode, StreetAddress, AddressType) VALUES (18, 18, 'United States', 'Minnesota', 'Rochester', 56024, '123 Cedar Road', 'Personal');
+INSERT INTO mcdonald.address (pid, AddressID, Country, State, City, ZipCode, StreetAddress, AddressType) VALUES (20, 20, 'United States', 'Minnesota', 'Plymouth', 56025, '456 Elm Court', 'Personal');
+INSERT INTO mcdonald.address (pid, AddressID, Country, State, City, ZipCode, StreetAddress, AddressType) VALUES (21, 21, 'United States', 'Minnesota', 'Lakeview', 56026, '901 Willow Lane', 'Personal');
+INSERT INTO mcdonald.address (pid, AddressID, Country, State, City, ZipCode, StreetAddress, AddressType) VALUES (22, 22, 'United States', 'Minnesota', 'Mankato', 56027, '234 Birch Circle', 'Personal');
+INSERT INTO mcdonald.address (pid, AddressID, Country, State, City, ZipCode, StreetAddress, AddressType) VALUES (23, 23, 'United States', 'Minnesota', 'Rochester', 56028, '567 Oak Way', 'Personal');
+INSERT INTO mcdonald.address (pid, AddressID, Country, State, City, ZipCode, StreetAddress, AddressType) VALUES (24, 24, 'United States', 'Minnesota', 'Plymouth', 56029, '890 Maple Drive', 'Personal');
+INSERT INTO mcdonald.address (pid, AddressID, Country, State, City, ZipCode, StreetAddress, AddressType) VALUES (25, 25, 'United States', 'Minnesota', 'Lakeview', 56030, '123 Pine Road', 'Personal');
+INSERT INTO mcdonald.address (pid, AddressID, Country, State, City, ZipCode, StreetAddress, AddressType) VALUES (26, 26, 'United States', 'Wisconsin', 'Prescott', 54021, '456 Cedar Street', 'Personal');
+INSERT INTO mcdonald.address (pid, AddressID, Country, State, City, ZipCode, StreetAddress, AddressType) VALUES (27, 27, 'United States', 'Minnesota', 'Plymouth', 54021, '789 Elm Avenue', 'Personal');
+INSERT INTO mcdonald.address (pid, AddressID, Country, State, City, ZipCode, StreetAddress, AddressType) VALUES (28, 28, 'United States', 'Alabama', 'Birmingham', 35203, '123 Magnolia Street', 'Personal');
+INSERT INTO mcdonald.address (pid, AddressID, Country, State, City, ZipCode, StreetAddress, AddressType) VALUES (29, 29, 'United States', 'Texas', 'Austin', 78701, '8815 Dill Street', 'Personal');
+INSERT INTO mcdonald.address (pid, AddressID, Country, State, City, ZipCode, StreetAddress, AddressType) VALUES (30, 30, 'United States', 'Oregon', 'Portland', 97201, '1515 Green Ave', 'Personal');
+INSERT INTO mcdonald.address (pid, AddressID, Country, State, City, ZipCode, StreetAddress, AddressType) VALUES (31, 50, 'United States', 'Alabama', 'Birmingham', 35203, '125 Magnolia Street', 'Business');
+INSERT INTO mcdonald.address (pid, AddressID, Country, State, City, ZipCode, StreetAddress, AddressType) VALUES (32, 51, 'United States', 'Texas', 'Austin', 78701, '456 Lone Star Avenue', 'Business');
+INSERT INTO mcdonald.address (pid, AddressID, Country, State, City, ZipCode, StreetAddress, AddressType) VALUES (33, 52, 'United States', 'Oregon', 'Portland', 97201, '788 Evergreen Lane', 'Business');
+INSERT INTO mcdonald.address (pid, AddressID, Country, State, City, ZipCode, StreetAddress, AddressType) VALUES (34, 53, 'United States', 'Vermont', 'Burlington', 5401, 'Maple Street', 'Business');
+INSERT INTO mcdonald.address (pid, AddressID, Country, State, City, ZipCode, StreetAddress, AddressType) VALUES (35, 54, 'United States', 'Nevada', 'Las Vegas', 89101, 'Silverado Drive', 'Business');
+INSERT INTO mcdonald.address (pid, AddressID, Country, State, City, ZipCode, StreetAddress, AddressType) VALUES (36, 55, 'Canada', 'Ontario', 'Toronto', 5832, '123 Maple Street', 'Business');
+INSERT INTO mcdonald.address (pid, AddressID, Country, State, City, ZipCode, StreetAddress, AddressType) VALUES (37, 56, 'Brazil', 'Rio de Janeiro', 'Rio de Janeiro', '22041-010', 'Av. Copacabana, 456', 'Business');
+INSERT INTO mcdonald.address (pid, AddressID, Country, State, City, ZipCode, StreetAddress, AddressType) VALUES (38, 57, 'Japan', 'Tokyo', 'Tokyo', 1000001, '789 Sakura Street', 'Business');
+INSERT INTO mcdonald.address (pid, AddressID, Country, State, City, ZipCode, StreetAddress, AddressType) VALUES (39, 58, 'Australia', 'New South Wales', 'Sydney', 2000, '10 Bondi Road', 'Business');
+INSERT INTO mcdonald.address (pid, AddressID, Country, State, City, ZipCode, StreetAddress, AddressType) VALUES (40, 59, 'Egypt', 'null', 'Cairo', 11511, '321 Nile Avenue', 'Business');
+INSERT INTO mcdonald.address (pid, AddressID, Country, State, City, ZipCode, StreetAddress, AddressType) VALUES (41, 60, 'Norway', 'null', 'Oslo', 250, 'Fjordveien 15', 'Business');
+INSERT INTO mcdonald.address (pid, AddressID, Country, State, City, ZipCode, StreetAddress, AddressType) VALUES (42, 61, 'Mexico', 'Mexico City', 'Mexico City', 6170, 'Calle Guadalajara 100', 'Business');
+INSERT INTO mcdonald.address (pid, AddressID, Country, State, City, ZipCode, StreetAddress, AddressType) VALUES (43, 62, 'South Africa', 'null', 'Johannesburg', 2001, '25 Mandela Street', 'Business');
+INSERT INTO mcdonald.address (pid, AddressID, Country, State, City, ZipCode, StreetAddress, AddressType) VALUES (44, 63, 'Russia', 'null', 'Moscow', 119019, '567 Red Square', 'Business');
+INSERT INTO mcdonald.address (pid, AddressID, Country, State, City, ZipCode, StreetAddress, AddressType) VALUES (45, 64, 'India', 'null', 'New Delhi', 110001, '42 Gandhi Road', 'Business');
 
 ***********************************************************************
 --Building Insert Statement
