@@ -128,3 +128,56 @@ INSERT INTO mcdonald.Person (pid, PersonID, FirstName, LastName, DOB, RoleStatus
 INSERT INTO mcdonald.Person (pid, PersonID, FirstName, LastName, DOB, RoleStatus, RoleID, AddressID) VALUES (29, 29, 'James', 'Potter', '1980-07-31', 'N/A', 1, 6);
 
 ***********************************************************************************
+
+--Discount Insert Statements
+
+INSERT INTO mcdonald.Discount (pid, DiscountID, DiscountAmount, RequiredSpendAmount, DiscountDescription, CampaignID, DiscountType) VALUES (1, 1, 0.015, 100, 'Wholesale Discount', null, 'Bulk');
+INSERT INTO mcdonald.Discount (pid, DiscountID, DiscountAmount, RequiredSpendAmount, DiscountDescription, CampaignID, DiscountType) VALUES (2, 2, 0.01, 500, 'Wholesale Discount', null, 'Bulk');
+INSERT INTO mcdonald.Discount (pid, DiscountID, DiscountAmount, RequiredSpendAmount, DiscountDescription, CampaignID, DiscountType) VALUES (3, 3, 0.02, 800, 'Wholesale Discount', null, 'Bulk');
+INSERT INTO mcdonald.Discount (pid, DiscountID, DiscountAmount, RequiredSpendAmount, DiscountDescription, CampaignID, DiscountType) VALUES (4, 4, 0.06, 1000, 'Wholesale Discount', null, 'Bulk');
+INSERT INTO mcdonald.Discount (pid, DiscountID, DiscountAmount, RequiredSpendAmount, DiscountDescription, CampaignID, DiscountType) VALUES (5, 5, 0.1, 20000, 'Wholesale Discount', null, 'Bulk');
+INSERT INTO mcdonald.Discount (pid, DiscountID, DiscountAmount, RequiredSpendAmount, DiscountDescription, CampaignID, DiscountType) VALUES (6, 6, 0.12, 50000, 'Wholesale Discount', null, 'Bulk');
+INSERT INTO mcdonald.Discount (pid, DiscountID, DiscountAmount, RequiredSpendAmount, DiscountDescription, CampaignID, DiscountType) VALUES (7, 7, 0.15, 100000, 'Wholesale Discount', null, 'Bulk');
+INSERT INTO mcdonald.Discount (pid, DiscountID, DiscountAmount, RequiredSpendAmount, DiscountDescription, CampaignID, DiscountType) VALUES (8, 8, 0.1, 0, 'Social Media earned discount', 18, 'MFG');
+INSERT INTO mcdonald.Discount (pid, DiscountID, DiscountAmount, RequiredSpendAmount, DiscountDescription, CampaignID, DiscountType) VALUES (9, 9, 0.1, 0, 'Social Media earned discount', 16, 'MFG');
+INSERT INTO mcdonald.Discount (pid, DiscountID, DiscountAmount, RequiredSpendAmount, DiscountDescription, CampaignID, DiscountType) VALUES (10, 10, 0.2, 0, 'Social Media earned discount', 21, 'MFG');
+INSERT INTO mcdonald.Discount (pid, DiscountID, DiscountAmount, RequiredSpendAmount, DiscountDescription, CampaignID, DiscountType) VALUES (11, 11, 0.5, 0, 'Social Media earned discount', 16, 'MFG');
+INSERT INTO mcdonald.Discount (pid, DiscountID, DiscountAmount, RequiredSpendAmount, DiscountDescription, CampaignID, DiscountType) VALUES (12, 12, 0.25, 0, 'Social Media earned discount', 16, 'MFG');
+INSERT INTO mcdonald.Discount (pid, DiscountID, DiscountAmount, RequiredSpendAmount, DiscountDescription, CampaignID, DiscountType) VALUES (13, 13, 0.25, 0, 'Social Media earned discount', 18, 'MFG');
+INSERT INTO mcdonald.Discount (pid, DiscountID, DiscountAmount, RequiredSpendAmount, DiscountDescription, CampaignID, DiscountType) VALUES (14, 14, 0.1, 0, 'Social Media earned discount', 17, 'MFG');
+INSERT INTO mcdonald.Discount (pid, DiscountID, DiscountAmount, RequiredSpendAmount, DiscountDescription, CampaignID, DiscountType) VALUES (15, 15, 0.2, 0, 'Social Media earned discount', 5, 'MFG');
+INSERT INTO mcdonald.Discount (pid, DiscountID, DiscountAmount, RequiredSpendAmount, DiscountDescription, CampaignID, DiscountType) VALUES (16, 16, 0.5, 0, 'Social Media earned discount', 5, 'MFG');
+INSERT INTO mcdonald.Discount (pid, DiscountID, DiscountAmount, RequiredSpendAmount, DiscountDescription, CampaignID, DiscountType) VALUES (17, 17, 0.25, 0, 'Social Media earned discount', 7, 'MFG');
+INSERT INTO mcdonald.Discount (pid, DiscountID, DiscountAmount, RequiredSpendAmount, DiscountDescription, CampaignID, DiscountType) VALUES (18, 18, 0.25, 0, 'Social Media earned discount', 5, 'MFG');
+INSERT INTO mcdonald.Discount (pid, DiscountID, DiscountAmount, RequiredSpendAmount, DiscountDescription, CampaignID, DiscountType) VALUES (19, 19, 1, 0, 'Birthday cookie', null, 'Free');
+INSERT INTO mcdonald.Discount (pid, DiscountID, DiscountAmount, RequiredSpendAmount, DiscountDescription, CampaignID, DiscountType) VALUES (20, 20, 0.15, 50, 'Black Friday bulk buy discount', 9, 'Bulk');
+
+***********************************************************************************
+--Product Insert Statements
+
+INSERT INTO mcdonald.Product (pid, ProductID, ProductName, ProductType, UnitPrice, QuantityPerUnit, ProductDescription, ProductStatus) VALUES (1, 1, 'McDLT', 'Entrée', 4.99, 1, 'a self serve burger container', 'Discontinued');
+INSERT INTO mcdonald.Product (pid, ProductID, ProductName, ProductType, UnitPrice, QuantityPerUnit, ProductDescription, ProductStatus) VALUES (2, 2, 'McSalad Shakers', 'Salad', 4.99, 1, 'a salad you could shake', 'Discontinued');
+INSERT INTO mcdonald.Product (pid, ProductID, ProductName, ProductType, UnitPrice, QuantityPerUnit, ProductDescription, ProductStatus) VALUES (3, 3, 'McPizza', 'Entrée', 8.99, 1, 'a pizza with patty toppings', 'Discontinued');
+INSERT INTO mcdonald.Product (pid, ProductID, ProductName, ProductType, UnitPrice, QuantityPerUnit, ProductDescription, ProductStatus) VALUES (4, 4, 'McHotDog', 'Entrée', 1.99, 1, 'a hot dog', 'Discontinued');
+INSERT INTO mcdonald.Product (pid, ProductID, ProductName, ProductType, UnitPrice, QuantityPerUnit, ProductDescription, ProductStatus) VALUES (5, 5, 'McSpagetti', 'Entrée', 2.99, 1, 'pasta', 'Discontinued');
+INSERT INTO mcdonald.Product (pid, ProductID, ProductName, ProductType, UnitPrice, QuantityPerUnit, ProductDescription, ProductStatus) VALUES (6, 6, 'Big Mac', 'Entrée', 4.99, 1, 'burger', 'Current');
+INSERT INTO mcdonald.Product (pid, ProductID, ProductName, ProductType, UnitPrice, QuantityPerUnit, ProductDescription, ProductStatus) VALUES (7, 7, 'Quarter Pounder with Cheese', 'Entrée', 5.39, 1, 'burger', 'Current');
+INSERT INTO mcdonald.Product (pid, ProductID, ProductName, ProductType, UnitPrice, QuantityPerUnit, ProductDescription, ProductStatus) VALUES (8, 8, 'Filet-O-Fish', 'Entrée', 4.29, 1, 'burger', 'Current');
+INSERT INTO mcdonald.Product (pid, ProductID, ProductName, ProductType, UnitPrice, QuantityPerUnit, ProductDescription, ProductStatus) VALUES (9, 9, 'McChicken', 'Entrée', 1.89, 1, 'burger', 'Current');
+INSERT INTO mcdonald.Product (pid, ProductID, ProductName, ProductType, UnitPrice, QuantityPerUnit, ProductDescription, ProductStatus) VALUES (10, 10, 'Chicken McNuggets', 'Side', 3.19, 6, 'chicken nuggets', 'Current');
+INSERT INTO mcdonald.Product (pid, ProductID, ProductName, ProductType, UnitPrice, QuantityPerUnit, ProductDescription, ProductStatus) VALUES (11, 11, 'Double Cheeseburger', 'Entrée', 2.39, 1, 'burger', 'Current');
+INSERT INTO mcdonald.Product (pid, ProductID, ProductName, ProductType, UnitPrice, QuantityPerUnit, ProductDescription, ProductStatus) VALUES (12, 12, 'Spicy McChicken', 'Entrée', 1.89, 1, 'burger', 'Current');
+INSERT INTO mcdonald.Product (pid, ProductID, ProductName, ProductType, UnitPrice, QuantityPerUnit, ProductDescription, ProductStatus) VALUES (13, 13, 'Grilled Chicken Sandwich', 'Entrée', 4.99, 1, 'burger', 'Current');
+INSERT INTO mcdonald.Product (pid, ProductID, ProductName, ProductType, UnitPrice, QuantityPerUnit, ProductDescription, ProductStatus) VALUES (14, 14, 'Buttermilk Crispy Chicken Sandwich', 'Entrée', 4.99, 1, 'burger', 'Current');
+INSERT INTO mcdonald.Product (pid, ProductID, ProductName, ProductType, UnitPrice, QuantityPerUnit, ProductDescription, ProductStatus) VALUES (15, 15, 'Egg McMuffin', 'Entrée', 3.79, 1, 'a breakfast menu item', 'Current');
+INSERT INTO mcdonald.Product (pid, ProductID, ProductName, ProductType, UnitPrice, QuantityPerUnit, ProductDescription, ProductStatus) VALUES (16, 16, 'Sausage McMuffin with Egg', 'Entrée', 3.69, 1, 'a breakfast menu item', 'Current');
+INSERT INTO mcdonald.Product (pid, ProductID, ProductName, ProductType, UnitPrice, QuantityPerUnit, ProductDescription, ProductStatus) VALUES (17, 17, 'Hotcakes', 'Entrée', 2.99, 1, 'a breakfast menu item', 'Current');
+INSERT INTO mcdonald.Product (pid, ProductID, ProductName, ProductType, UnitPrice, QuantityPerUnit, ProductDescription, ProductStatus) VALUES (18, 18, 'Sausage Burrito', 'Entrée', 1.29, 1, 'a breakfast menu item', 'Current');
+INSERT INTO mcdonald.Product (pid, ProductID, ProductName, ProductType, UnitPrice, QuantityPerUnit, ProductDescription, ProductStatus) VALUES (19, 19, 'Egg White Delight McMuffin', 'Entrée', 3.29, 1, 'a breakfast menu item', 'Current');
+INSERT INTO mcdonald.Product (pid, ProductID, ProductName, ProductType, UnitPrice, QuantityPerUnit, ProductDescription, ProductStatus) VALUES (20, 20, 'Premium Bacon Ranch Salad with Grilled Chicken', 'Salad', 5.99, 1, 'a salad', 'Current');
+INSERT INTO mcdonald.Product (pid, ProductID, ProductName, ProductType, UnitPrice, QuantityPerUnit, ProductDescription, ProductStatus) VALUES (21, 21, 'Apple Slices', 'Side', 1.49, 8, 'a sliced apple', 'Current');
+INSERT INTO mcdonald.Product (pid, ProductID, ProductName, ProductType, UnitPrice, QuantityPerUnit, ProductDescription, ProductStatus) VALUES (22, 22, 'Vanilla Cone', 'Dessert', 1.49, 1, 'vanilla softserve', 'Current');
+INSERT INTO mcdonald.Product (pid, ProductID, ProductName, ProductType, UnitPrice, QuantityPerUnit, ProductDescription, ProductStatus) VALUES (23, 23, 'Chocolate Chip Cookie', 'Dessert', 1.49, 1, 'a large cookie', 'Current');
+INSERT INTO mcdonald.Product (pid, ProductID, ProductName, ProductType, UnitPrice, QuantityPerUnit, ProductDescription, ProductStatus) VALUES (24, 24, 'Egg Case', 'Wholesale', 500, 1500, 'Wholesale ingredient', 'Current');
+INSERT INTO mcdonald.Product (pid, ProductID, ProductName, ProductType, UnitPrice, QuantityPerUnit, ProductDescription, ProductStatus) VALUES (25, 25, 'Whole Apple Case', 'Wholesale', 700, 1000, 'Wholesale ingredient', 'Current');
+
