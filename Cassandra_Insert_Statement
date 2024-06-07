@@ -131,6 +131,7 @@ VALUES (45, 64, 'India', 'null', 'New Delhi', 110001, '42 Gandhi Road', 'Busines
 
 ***********************************************************************
 --Building Insert Statement
+INSERT INTO mcdonald.Building (pid, BuildingID, BuildingType, AddressID) VALUES (1, 1, 'National Headquarters', 1);
 INSERT INTO mcdonald.Building (pid, BuildingID, BuildingType, AddressID) VALUES (2, 2, 'Restaurant', 2);
 INSERT INTO mcdonald.Building (pid, BuildingID, BuildingType, AddressID) VALUES (3, 3, 'Warehouse', 3);
 INSERT INTO mcdonald.Building (pid, BuildingID, BuildingType, AddressID) VALUES (4, 4, 'Restaurant', 4);
