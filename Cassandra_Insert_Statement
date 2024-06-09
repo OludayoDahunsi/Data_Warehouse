@@ -206,4 +206,28 @@ INSERT INTO mcdonald.CampaignDemographic (pid, DemographicID, AgeLowerLimit, Age
 INSERT INTO mcdonald.CampaignDemographic (pid, DemographicID, AgeLowerLimit, AgeUpperLimit, TargetCity, InteractionFrequencyType) VALUES (20, 20, 20, 40, 'Johannesburg', 4);	
 INSERT INTO mcdonald.CampaignDemographic (pid, DemographicID, AgeLowerLimit, AgeUpperLimit, TargetCity, InteractionFrequencyType) VALUES (21, 21, 30, 50, 'Moscow', 1);	
 
+**********************************************************************************************
+--mcdonald.MediaCampaign Insert Statements 
+
+INSERT INTO mcdonald.MediaCampaign (pid, CampaignID, StartDate, EndDate, Budget, PersonID, DemographicID, CampaignType, CampaignNotes) VALUES (1, 1, '2023-12-18', '2024-01-02', 8108943, 4, 14, 'Holiday', 'New Years Day');
+INSERT INTO mcdonald.MediaCampaign (pid, CampaignID, StartDate, EndDate, Budget, PersonID, DemographicID, CampaignType, CampaignNotes) VALUES (2, 2, '2024-01-31', '2024-02-15', 1525077, 6, 18, 'Holiday', 'Valentines Day');
+INSERT INTO mcdonald.MediaCampaign (pid, CampaignID, StartDate, EndDate, Budget, PersonID, DemographicID, CampaignType, CampaignNotes) VALUES (3, 3, '2024-03-17', '2024-04-01', 2223273, 5, 2, 'Holiday', 'Easter');
+INSERT INTO mcdonald.MediaCampaign (pid, CampaignID, StartDate, EndDate, Budget, PersonID, DemographicID, CampaignType, CampaignNotes) VALUES (4, 4, '2024-05-13', '2024-05-28', 2414416, 6, 20, 'Holiday', 'Memorial Day');
+INSERT INTO mcdonald.MediaCampaign (pid, CampaignID, StartDate, EndDate, Budget, PersonID, DemographicID, CampaignType, CampaignNotes) VALUES (5, 5, '2024-06-20', '2024-07-05', 7025427, 6, 18, 'Holiday', 'Independence Day');
+INSERT INTO mcdonald.MediaCampaign (pid, CampaignID, StartDate, EndDate, Budget, PersonID, DemographicID, CampaignType, CampaignNotes) VALUES (6, 6, '2024-08-19', '2024-09-03', 7963942, 4, 9, 'Holiday', 'Labor Day');
+INSERT INTO mcdonald.MediaCampaign (pid, CampaignID, StartDate, EndDate, Budget, PersonID, DemographicID, CampaignType, CampaignNotes) VALUES (7, 7, '2024-10-17', '2024-11-01', 3432531, 6, 17, 'Holiday', 'Halloween');
+INSERT INTO mcdonald.MediaCampaign (pid, CampaignID, StartDate, EndDate, Budget, PersonID, DemographicID, CampaignType, CampaignNotes) VALUES (8, 8, '2024-11-14', '2024-11-23', 7696474, 6, 16, 'Holiday', 'Thanksgiving');
+INSERT INTO mcdonald.MediaCampaign (pid, CampaignID, StartDate, EndDate, Budget, PersonID, DemographicID, CampaignType, CampaignNotes) VALUES (9, 9, '2024-11-15', '2024-11-24', 2382533, 5, 10, 'Holiday', 'Black Friday');
+INSERT INTO mcdonald.MediaCampaign (pid, CampaignID, StartDate, EndDate, Budget, PersonID, DemographicID, CampaignType, CampaignNotes) VALUES (10, 10, '2024-12-11', '2024-12-26', 292630, 5, 18, 'Holiday', 'Christmas');
+INSERT INTO mcdonald.MediaCampaign (pid, CampaignID, StartDate, EndDate, Budget, PersonID, DemographicID, CampaignType, CampaignNotes) VALUES (11, 11, '2024-02-04', '2024-02-20', 484627, 5, 5, 'Holiday', 'Presidents Day');
+INSERT INTO mcdonald.MediaCampaign (pid, CampaignID, StartDate, EndDate, Budget, PersonID, DemographicID, CampaignType, CampaignNotes) VALUES (12, 12, '2024-06-01', '2024-08-31', 455202, 4, 4, 'Seasonal', 'Summer');
+INSERT INTO mcdonald.MediaCampaign (pid, CampaignID, StartDate, EndDate, Budget, PersonID, DemographicID, CampaignType, CampaignNotes) VALUES (13, 13, '2024-03-01', '2024-05-31', 7068652, 4, 17, 'Seasonal', 'Spring');
+INSERT INTO mcdonald.MediaCampaign (pid, CampaignID, StartDate, EndDate, Budget, PersonID, DemographicID, CampaignType, CampaignNotes) VALUES (14, 14, '2024-09-01', '2024-11-30', 1187622, 4, 19, 'Seasonal', 'Fall');
+INSERT INTO mcdonald.MediaCampaign (pid, CampaignID, StartDate, EndDate, Budget, PersonID, DemographicID, CampaignType, CampaignNotes) VALUES (15, 15, '2024-12-01', '2024-02-29', 4548281, 5, 12, 'Seasonal', 'Winter');
+INSERT INTO mcdonald.MediaCampaign (pid, CampaignID, StartDate, EndDate, Budget, PersonID, DemographicID, CampaignType, CampaignNotes) VALUES (16, 16, '2023-11-12', '2024-01-26', 2293409, 6, 18, 'Movie Release', 'Mean Girls');
+INSERT INTO mcdonald.MediaCampaign (pid, CampaignID, StartDate, EndDate, Budget, PersonID, DemographicID, CampaignType, CampaignNotes) VALUES (17, 17, '2024-05-03', '2024-07-17', 5518590, 4, 13, 'Movie Release', 'Minions');
+INSERT INTO mcdonald.MediaCampaign (pid, CampaignID, StartDate, EndDate, Budget, PersonID, DemographicID, CampaignType, CampaignNotes) VALUES (18, 18, '2024-03-24', '2024-06-07', 4543334, 6, 7, 'Movie Release', 'Garfield');
+INSERT INTO mcdonald.MediaCampaign (pid, CampaignID, StartDate, EndDate, Budget, PersonID, DemographicID, CampaignType, CampaignNotes) VALUES (19, 19, '2024-04-14', '2024-06-28', 2630452, 6, 8, 'Movie Release', 'Inside Out 2');
+INSERT INTO mcdonald.MediaCampaign (pid, CampaignID, StartDate, EndDate, Budget, PersonID, DemographicID, CampaignType, CampaignNotes) VALUES (20, 20, '2024-05-26', '2024-08-09', 3233797, 6, 8, 'Movie Release', 'Deadpool');
+INSERT INTO mcdonald.MediaCampaign (pid, CampaignID, StartDate, EndDate, Budget, PersonID, DemographicID, CampaignType, CampaignNotes) VALUES (21, 21, '2024-05-26', '2024-08-09', 4636422, 4, 3, 'Movie Release', 'Deadpool');
 
