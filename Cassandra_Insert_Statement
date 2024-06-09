@@ -94,9 +94,7 @@ INSERT INTO mcdonald.Role (pid, RoleID, RoleName, SecurityRanking, BuildingID) V
 
 ***********************************************************************************
 
-
 --INSERT INTO Person TABLE
-
 INSERT INTO mcdonald.Person (pid, PersonID, FirstName, LastName, DOB, RoleStatus, RoleID, AddressID) VALUES (1, 1, 'Harry', 'Potter', '1980-07-31', 'Current', 17, 6);
 INSERT INTO mcdonald.Person (pid, PersonID, FirstName, LastName, DOB, RoleStatus, RoleID, AddressID) VALUES (2, 2, 'Hermione', 'Granger', '1979-09-19', 'Current', 2, 7);
 INSERT INTO mcdonald.Person (pid, PersonID, FirstName, LastName, DOB, RoleStatus, RoleID, AddressID) VALUES (3, 3, 'Ron', 'Weasley', '1980-03-01', 'Inactive', 4, 8);
@@ -282,9 +280,28 @@ INSERT INTO mcdonald.Transaction (pid, TransactionID, TransactionType,  Quantity
 INSERT INTO mcdonald.Transaction (pid, TransactionID, TransactionType,  Quantity, DateTime, DiscountID, ProductID, PersonID, BuildingID)VALUES (22, 22,'Wholesale', 200, '2024-07-18 11:15:00', null, 21, 7, 3);
 INSERT INTO mcdonald.Transaction (pid, TransactionID, TransactionType,  Quantity, DateTime, DiscountID, ProductID, PersonID, BuildingID)VALUES (23, 23, 'Wholesale', 500, '2024-08-22 16:30:00', null, 20, 8, 3);
 
-
-
 **********************************************************************************************
+--mcdonald.TransactionFeedback Insert Statements
+INSERT INTO mcdonald.TransactionFeedback (pid, FeedbackID,  TransactionID, FeedbackText, ServiceRating, CleanlinessRating, PromptnessRating, TasteRating, RecRating) VALUES (1, 1, 13, 'The service was quick and efficient; I got my order in no time!', 1, 1,5, 2, 2);
+INSERT INTO mcdonald.TransactionFeedback (pid, FeedbackID,  TransactionID, FeedbackText, ServiceRating, CleanlinessRating, PromptnessRating, TasteRating, RecRating) VALUES (2, 2, 11, 'The food was delicious, but the wait was unbearable.', 3, 3,4, 1, 5);
+INSERT INTO mcdonald.TransactionFeedback (pid, FeedbackID,  TransactionID, FeedbackText, ServiceRating, CleanlinessRating, PromptnessRating, TasteRating, RecRating) VALUES (3, 3, 7, 'The staff was friendly and welcoming; they made me feel valued as a customer.', 3, 5,4, 4, 3);
+INSERT INTO mcdonald.TransactionFeedback (pid, FeedbackID,  TransactionID, FeedbackText, ServiceRating, CleanlinessRating, PromptnessRating, TasteRating, RecRating) VALUES (4, 4, 3, 'I was disappointed with the quality of the food; it didnt meet my expectations.', 5, 3,2, 3, 1);
+INSERT INTO mcdonald.TransactionFeedback (pid, FeedbackID,  TransactionID, FeedbackText, ServiceRating, CleanlinessRating, PromptnessRating, TasteRating, RecRating) VALUES (5, 5, 12, 'The prices were reasonable for the portion sizes; I felt like I got good value for my money.', 2, 4,3, 3, 2);
+INSERT INTO mcdonald.TransactionFeedback (pid, FeedbackID,  TransactionID, FeedbackText, ServiceRating, CleanlinessRating, PromptnessRating, TasteRating, RecRating) VALUES (6, 6, 3, 'The restaurant was clean and well-maintained; it had a pleasant atmosphere.', 3, 5,4, 5, 2);
+INSERT INTO mcdonald.TransactionFeedback (pid, FeedbackID,  TransactionID, FeedbackText, ServiceRating, CleanlinessRating, PromptnessRating, TasteRating, RecRating) VALUES (7, 7, 3, 'I had a bad experience with an incorrect order; it took a while to get it resolved.', 1, 4,3, 5, 2);
+INSERT INTO mcdonald.TransactionFeedback (pid, FeedbackID,  TransactionID, FeedbackText, ServiceRating, CleanlinessRating, PromptnessRating, TasteRating, RecRating) VALUES (8, 8, 4, 'The menu options were limited, and I couldn't find anything I really wanted to eat.', 5, 3,2, 2, 3);
+INSERT INTO mcdonald.TransactionFeedback (pid, FeedbackID,  TransactionID, FeedbackText, ServiceRating, CleanlinessRating, PromptnessRating, TasteRating, RecRating) VALUES (9, 9, 10, 'The fries were overcooked and tasted stale; it was a letdown.', 2, 4,3, 2, 1);
+INSERT INTO mcdonald.TransactionFeedback (pid, FeedbackID,  TransactionID, FeedbackText, ServiceRating, CleanlinessRating, PromptnessRating, TasteRating, RecRating) VALUES (10, 10, 12, 'The cashier was rude and seemed disinterested in helping customers.', 2, 3,4, 4, 1);
+INSERT INTO mcdonald.TransactionFeedback (pid, FeedbackID,  TransactionID, FeedbackText, ServiceRating, CleanlinessRating, PromptnessRating, TasteRating, RecRating) VALUES (11, 12, 4, 'The restaurant was busy, but the staff worked efficiently to keep things moving smoothly.', 2, 4,3, 1, 2);
+INSERT INTO mcdonald.TransactionFeedback (pid, FeedbackID,  TransactionID, FeedbackText, ServiceRating, CleanlinessRating, PromptnessRating, TasteRating, RecRating) VALUES (13, 13, 18, 'The burger was greasy and dripping with oil; it was unpleasant to eat.', 5, 1,3, 3, 3);
+INSERT INTO mcdonald.TransactionFeedback (pid, FeedbackID,  TransactionID, FeedbackText, ServiceRating, CleanlinessRating, PromptnessRating, TasteRating, RecRating) VALUES (14, 14, 20, 'I appreciated the option to customize my order to fit my dietary preferences.', 4, 1,1, 3, 1);
+INSERT INTO mcdonald.TransactionFeedback (pid, FeedbackID,  TransactionID, FeedbackText, ServiceRating, CleanlinessRating, PromptnessRating, TasteRating, RecRating) VALUES (15, 15, 8, 'The drive-thru line was backed up, and it took forever to get my food.', 2, 1,3, 2, 3);
+INSERT INTO mcdonald.TransactionFeedback (pid, FeedbackID,  TransactionID, FeedbackText, ServiceRating, CleanlinessRating, PromptnessRating, TasteRating, RecRating) VALUES (16, 16, 13, 'The restaurant was out of several menu items, which was frustrating.', 5, 2,1, 5, 2);
+INSERT INTO mcdonald.TransactionFeedback (pid, FeedbackID,  TransactionID, FeedbackText, ServiceRating, CleanlinessRating, PromptnessRating, TasteRating, RecRating) VALUES (17, 17, 2, 'The food was surprisingly fresh and tasted better than I expected.', 5, 3,2, 3, 1);
+INSERT INTO mcdonald.TransactionFeedback (pid, FeedbackID,  TransactionID, FeedbackText, ServiceRating, CleanlinessRating, PromptnessRating, TasteRating, RecRating) VALUES (18, 18, 20, 'The wait time for my order was reasonable, considering how busy the restaurant was.', 1, 4,4, 5, 3);
+INSERT INTO mcdonald.TransactionFeedback (pid, FeedbackID,  TransactionID, FeedbackText, ServiceRating, CleanlinessRating, PromptnessRating, TasteRating, RecRating) VALUES (19, 19, 3, 'I found a hair in my food, which completely ruined my appetite.', 5, 4,4, 2, 4);
+INSERT INTO mcdonald.TransactionFeedback (pid, FeedbackID,  TransactionID, FeedbackText, ServiceRating, CleanlinessRating, PromptnessRating, TasteRating, RecRating) VALUES (20, 20, 12, 'The restaurant was understaffed, and the service was slow as a result.', 1, 3,1, 3, 3);
+INSERT INTO mcdonald.TransactionFeedback (pid, FeedbackID,  TransactionID, FeedbackText, ServiceRating, CleanlinessRating, PromptnessRating, TasteRating, RecRating) VALUES (21, 21, 9, 'Despite a few hiccups, overall, I had a positive experience and would return again.', 3, 3,2, 2, 1);
 
 **********************************************************************************************
 
