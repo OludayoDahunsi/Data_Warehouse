@@ -330,10 +330,29 @@ INSERT INTO mcdonald.Compensation (pid, BenefitID, BenefitType, BenefitAmount, P
 INSERT INTO mcdonald.Compensation (pid, BenefitID, BenefitType, BenefitAmount, PersonID) VALUES (23, 23, 'Medical', 3300, 18);
 
 **********************************************************************************************
+-SupportTicket Insert Statements
 
-**********************************************************************************************
+INSERT INTO mcdonald.SupportTicket  (pid, SupportTicketID, TransactionID, PersonID,TicketDescription, TicketType, SubmissionDateTime, TicketStatus) VALUES (1, 1, 19, 12, 'Register not working', 'External', null, 'Complete');
+INSERT INTO mcdonald.SupportTicket  (pid, SupportTicketID, TransactionID, PersonID,TicketDescription, TicketType, SubmissionDateTime, TicketStatus) VALUES (2, 2, 6, 12, 'Register not working', 'External', null, 'Complete');
+INSERT INTO mcdonald.SupportTicket  (pid, SupportTicketID, TransactionID, PersonID,TicketDescription, TicketType, SubmissionDateTime, TicketStatus) VALUES (3, 3, 13, 14, 'Register is bugging out', 'External', null, 'Complete');
+INSERT INTO mcdonald.SupportTicket  (pid, SupportTicketID, TransactionID, PersonID,TicketDescription, TicketType, SubmissionDateTime, TicketStatus) VALUES (4, 4, 3, 12, 'Register not working', 'External', null, 'Complete');
+INSERT INTO mcdonald.SupportTicket  (pid, SupportTicketID, TransactionID, PersonID,TicketDescription, TicketType, SubmissionDateTime, TicketStatus) VALUES (5, 5, 18, 13, 'Register not working', 'External', null, 'Complete');
+INSERT INTO mcdonald.SupportTicket  (pid, SupportTicketID, TransactionID, PersonID,TicketDescription, TicketType, SubmissionDateTime, TicketStatus) VALUES (6, 6, 14, 14, 'Register not working', 'External', null, 'Complete');
+INSERT INTO mcdonald.SupportTicket  (pid, SupportTicketID, TransactionID, PersonID,TicketDescription, TicketType, SubmissionDateTime, TicketStatus) VALUES (7, 7, 5, 13, 'Discount will not apply', 'External', null, 'Complete');
+INSERT INTO mcdonald.SupportTicket  (pid, SupportTicketID, TransactionID, PersonID,TicketDescription, TicketType, SubmissionDateTime, TicketStatus) VALUES (8, 8, 18, 14, 'Discount will not apply', 'External', null, 'Complete');
+INSERT INTO mcdonald.SupportTicket  (pid, SupportTicketID, TransactionID, PersonID,TicketDescription, TicketType, SubmissionDateTime, TicketStatus) VALUES (9, 9, 10, 13, 'Discount will not apply', 'External', null, 'Complete');
+INSERT INTO mcdonald.SupportTicket  (pid, SupportTicketID, TransactionID, PersonID,TicketDescription, TicketType, SubmissionDateTime, TicketStatus) VALUES (10, 10, 18, 12, 'Discount will not apply', 'External', null, 'Complete');
+INSERT INTO mcdonald.SupportTicket  (pid, SupportTicketID, TransactionID, PersonID,TicketDescription, TicketType, SubmissionDateTime, TicketStatus) VALUES (11, 11, 12, 12, 'Discount will not apply', 'External', null, 'Complete');
+INSERT INTO mcdonald.SupportTicket  (pid, SupportTicketID, TransactionID, PersonID,TicketDescription, TicketType, SubmissionDateTime, TicketStatus) VALUES (12, 12, 7, 14, 'Discount will not apply', 'External', null, 'Complete');
+INSERT INTO mcdonald.SupportTicket  (pid, SupportTicketID, TransactionID, PersonID,TicketDescription, TicketType, SubmissionDateTime, TicketStatus) VALUES (13, 13, 8, 12, 'Discount will not apply', 'External', null, 'Complete');
+INSERT INTO mcdonald.SupportTicket  (pid, SupportTicketID, TransactionID, PersonID,TicketDescription, TicketType, SubmissionDateTime, TicketStatus) VALUES (14, 14, 4, 12, 'Discount will not apply', 'External', null, 'Complete');
+INSERT INTO mcdonald.SupportTicket  (pid, SupportTicketID, TransactionID, PersonID,TicketDescription, TicketType, SubmissionDateTime, TicketStatus) VALUES (15, 15, null, 7, 'Compatibility issues between media rendering software and the latest operating system update. ', 'Application', '2024-2-15 10:30', 'Complete');
+INSERT INTO mcdonald.SupportTicket  (pid, SupportTicketID, TransactionID, PersonID,TicketDescription, TicketType, SubmissionDateTime, TicketStatus) VALUES (16, 16, null, 3, 'Network connectivity issues', 'Network', '02024-3-20 11:45', 'Complete');
+INSERT INTO mcdonald.SupportTicket  (pid, SupportTicketID, TransactionID, PersonID,TicketDescription, TicketType, SubmissionDateTime, TicketStatus) VALUES (17, 17, null, 5, 'Video editing software keeps crashing', 'Application', '2024-04-10 14:15', 'Complete');
+INSERT INTO mcdonald.SupportTicket  (pid, SupportTicketID, TransactionID, PersonID,TicketDescription, TicketType, SubmissionDateTime, TicketStatus) VALUES (18,  18, null, 5, 'Wifi is weak', 'Network', '2024-04-25 13:00', 'Complete');
+INSERT INTO mcdonald.SupportTicket  (pid, SupportTicketID, TransactionID, PersonID,TicketDescription, TicketType, SubmissionDateTime, TicketStatus) VALUES (19, 19, null, 7, 'Internet is slow', 'Network', '2024-05-10 09:30', 'Complete');
+INSERT INTO mcdonald.SupportTicket  (pid, SupportTicketID, TransactionID, PersonID,TicketDescription, TicketType, SubmissionDateTime, TicketStatus) VALUES (20, 20,null,  3, 'Social media authorization shows up as invalid', 'Security', '2024-05-20 16:45', 'In Progress');
 
-**********************************************************************************************
 
-**********************************************************************************************
+
 	
