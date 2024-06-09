@@ -304,6 +304,30 @@ INSERT INTO mcdonald.TransactionFeedback (pid, FeedbackID,  TransactionID, Feedb
 INSERT INTO mcdonald.TransactionFeedback (pid, FeedbackID,  TransactionID, FeedbackText, ServiceRating, CleanlinessRating, PromptnessRating, TasteRating, RecRating) VALUES (21, 21, 9, 'Despite a few hiccups, overall, I had a positive experience and would return again.', 3, 3,2, 2, 1);
 
 **********************************************************************************************
+--mcdonald.Compensation Insert Statements
+INSERT INTO mcdonald.Compensation (pid, BenefitID, BenefitType, BenefitAmount, PersonID) VALUES (1, 1, 'Medical ', 4000, 18);
+INSERT INTO mcdonald.Compensation (pid, BenefitID, BenefitType, BenefitAmount, PersonID) VALUES (2, 2, 'Pension', 6000, 9);
+INSERT INTO mcdonald.Compensation (pid, BenefitID, BenefitType, BenefitAmount, PersonID) VALUES (3, 3, 'Dental', 2700, 21);
+INSERT INTO mcdonald.Compensation (pid, BenefitID, BenefitType, BenefitAmount, PersonID) VALUES (4, 4, 'Salary', 70000, 12);
+INSERT INTO mcdonald.Compensation (pid, BenefitID, BenefitType, BenefitAmount, PersonID) VALUES (5, 5, 'Medical', 3500, 7);
+INSERT INTO mcdonald.Compensation (pid, BenefitID, BenefitType, BenefitAmount, PersonID) VALUES (6, 6, 'Pension', 5000, 22);
+INSERT INTO mcdonald.Compensation (pid, BenefitID, BenefitType, BenefitAmount, PersonID) VALUES (7, 7, 'Dental', 2000, 14);
+INSERT INTO mcdonald.Compensation (pid, BenefitID, BenefitType, BenefitAmount, PersonID) VALUES (8, 8, 'Annual Bonus', 10000, 10);
+INSERT INTO mcdonald.Compensation (pid, BenefitID, BenefitType, BenefitAmount, PersonID) VALUES (9, 9, 'Salary', 68000, 19);
+INSERT INTO mcdonald.Compensation (pid, BenefitID, BenefitType, BenefitAmount, PersonID) VALUES (10, 10, 'Medical', 4000, 6);
+INSERT INTO mcdonald.Compensation (pid, BenefitID, BenefitType, BenefitAmount, PersonID) VALUES (11, 11, 'Dental', 1500, 22);
+INSERT INTO mcdonald.Compensation (pid, BenefitID, BenefitType, BenefitAmount, PersonID) VALUES (12, 12, 'Pension', 6000, 11);
+INSERT INTO mcdonald.Compensation (pid, BenefitID, BenefitType, BenefitAmount, PersonID) VALUES (13, 13, 'Annual Bonus', 12000, 8);
+INSERT INTO mcdonald.Compensation (pid, BenefitID, BenefitType, BenefitAmount, PersonID) VALUES (14, 14, 'Dental', 2200, 3);
+INSERT INTO mcdonald.Compensation (pid, BenefitID, BenefitType, BenefitAmount, PersonID) VALUES (15, 15, 'Medical', 3800, 16);
+INSERT INTO mcdonald.Compensation (pid, BenefitID, BenefitType, BenefitAmount, PersonID) VALUES (16, 16, 'Salary', 72000, 3);
+INSERT INTO mcdonald.Compensation (pid, BenefitID, BenefitType, BenefitAmount, PersonID) VALUES (17, 17, 'Pension', 4500, 20);
+INSERT INTO mcdonald.Compensation (pid, BenefitID, BenefitType, BenefitAmount, PersonID) VALUES (18, 18, 'Annual Bonus', 15000, 15);
+INSERT INTO mcdonald.Compensation (pid, BenefitID, BenefitType, BenefitAmount, PersonID) VALUES (19, 19, 'Annual Bonus', 11000, 17);
+INSERT INTO mcdonald.Compensation (pid, BenefitID, BenefitType, BenefitAmount, PersonID) VALUES (20, 20, 'Dental', 2700, 6);
+INSERT INTO mcdonald.Compensation (pid, BenefitID, BenefitType, BenefitAmount, PersonID) VALUES (21, 21, 'Pension', 6500, 12);
+INSERT INTO mcdonald.Compensation (pid, BenefitID, BenefitType, BenefitAmount, PersonID) VALUES (22, 22, 'Salary', 65000, 7);
+INSERT INTO mcdonald.Compensation (pid, BenefitID, BenefitType, BenefitAmount, PersonID) VALUES (23, 23, 'Medical', 3300, 18);
 
 **********************************************************************************************
 
