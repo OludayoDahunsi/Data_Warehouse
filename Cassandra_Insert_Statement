@@ -181,3 +181,29 @@ INSERT INTO mcdonald.Product (pid, ProductID, ProductName, ProductType, UnitPric
 INSERT INTO mcdonald.Product (pid, ProductID, ProductName, ProductType, UnitPrice, QuantityPerUnit, ProductDescription, ProductStatus) VALUES (24, 24, 'Egg Case', 'Wholesale', 500, 1500, 'Wholesale ingredient', 'Current');
 INSERT INTO mcdonald.Product (pid, ProductID, ProductName, ProductType, UnitPrice, QuantityPerUnit, ProductDescription, ProductStatus) VALUES (25, 25, 'Whole Apple Case', 'Wholesale', 700, 1000, 'Wholesale ingredient', 'Current');
 
+**********************************************************************************************
+
+--CampaignDemographic Insert Statements
+INSERT INTO mcdonald.CampaignDemographic (pid, DemographicID, AgeLowerLimit, AgeUpperLimit, TargetCity, InteractionFrequencyType) VALUES (1, 1, 24, 34, 'Plymouth', 1);	
+INSERT INTO mcdonald.CampaignDemographic (pid, DemographicID, AgeLowerLimit, AgeUpperLimit, TargetCity, InteractionFrequencyType) VALUES (2, 2, 23, 33, 'Lakeview', 4);	
+INSERT INTO mcdonald.CampaignDemographic (pid, DemographicID, AgeLowerLimit, AgeUpperLimit, TargetCity, InteractionFrequencyType) VALUES (3, 3, 21, 31, 'Prescott', 5);	
+INSERT INTO mcdonald.CampaignDemographic (pid, DemographicID, AgeLowerLimit, AgeUpperLimit, TargetCity, InteractionFrequencyType) VALUES (4, 4, 16, 26, 'Plymouth ', 2);	
+INSERT INTO mcdonald.CampaignDemographic (pid, DemographicID, AgeLowerLimit, AgeUpperLimit, TargetCity, InteractionFrequencyType) VALUES (5, 5, 18, 28, 'Plymouth ', 1);	
+INSERT INTO mcdonald.CampaignDemographic (pid, DemographicID, AgeLowerLimit, AgeUpperLimit, TargetCity, InteractionFrequencyType) VALUES (6, 6, 21, 31, 'Plymouth ', 3);	
+INSERT INTO mcdonald.CampaignDemographic (pid, DemographicID, AgeLowerLimit, AgeUpperLimit, TargetCity, InteractionFrequencyType) VALUES (7, 7, 22, 32, 'Plymouth ', 0);	
+INSERT INTO mcdonald.CampaignDemographic (pid, DemographicID, AgeLowerLimit, AgeUpperLimit, TargetCity, InteractionFrequencyType) VALUES (8, 8, 23, 43, 'Plymouth ', 2);	
+INSERT INTO mcdonald.CampaignDemographic (pid, DemographicID, AgeLowerLimit, AgeUpperLimit, TargetCity, InteractionFrequencyType) VALUES (9, 9, 19, 39, 'Plymouth ', 5);	
+INSERT INTO mcdonald.CampaignDemographic (pid, DemographicID, AgeLowerLimit, AgeUpperLimit, TargetCity, InteractionFrequencyType) VALUES (10, 10, 25, 45, 'Toronto', 5);	
+INSERT INTO mcdonald.CampaignDemographic (pid, DemographicID, AgeLowerLimit, AgeUpperLimit, TargetCity, InteractionFrequencyType) VALUES (11, 11, 22, 42, 'Toronto', 4);	
+INSERT INTO mcdonald.CampaignDemographic (pid, DemographicID, AgeLowerLimit, AgeUpperLimit, TargetCity, InteractionFrequencyType) VALUES (12, 12, 20, 40, 'Toronto', 5);	
+INSERT INTO mcdonald.CampaignDemographic (pid, DemographicID, AgeLowerLimit, AgeUpperLimit, TargetCity, InteractionFrequencyType) VALUES (13, 13, 29, 49, 'Toronto', 2);	
+INSERT INTO mcdonald.CampaignDemographic (pid, DemographicID, AgeLowerLimit, AgeUpperLimit, TargetCity, InteractionFrequencyType) VALUES (14, 14, 26, 46, 'Rio de Janeiro', 1);	
+INSERT INTO mcdonald.CampaignDemographic (pid, DemographicID, AgeLowerLimit, AgeUpperLimit, TargetCity, InteractionFrequencyType) VALUES (15, 15, 20, 40, 'Tokyo', 2);	
+INSERT INTO mcdonald.CampaignDemographic (pid, DemographicID, AgeLowerLimit, AgeUpperLimit, TargetCity, InteractionFrequencyType) VALUES (16, 16, 28, 48, 'Sydney', 5);	
+INSERT INTO mcdonald.CampaignDemographic (pid, DemographicID, AgeLowerLimit, AgeUpperLimit, TargetCity, InteractionFrequencyType) VALUES (17, 17, 25, 45, 'Cairo', 1);	
+INSERT INTO mcdonald.CampaignDemographic (pid, DemographicID, AgeLowerLimit, AgeUpperLimit, TargetCity, InteractionFrequencyType) VALUES (18, 18, 25, 45, 'Oslo', 4);	
+INSERT INTO mcdonald.CampaignDemographic (pid, DemographicID, AgeLowerLimit, AgeUpperLimit, TargetCity, InteractionFrequencyType) VALUES (19, 19, 25, 45, 'Mexico City', 3);	
+INSERT INTO mcdonald.CampaignDemographic (pid, DemographicID, AgeLowerLimit, AgeUpperLimit, TargetCity, InteractionFrequencyType) VALUES (20, 20, 20, 40, 'Johannesburg', 4);	
+INSERT INTO mcdonald.CampaignDemographic (pid, DemographicID, AgeLowerLimit, AgeUpperLimit, TargetCity, InteractionFrequencyType) VALUES (21, 21, 30, 50, 'Moscow', 1);	
+
+
