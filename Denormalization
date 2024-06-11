@@ -1,0 +1,140 @@
+Denormalization Table Schema
+CREATE TABLE DiscountMediaCampaign_Report (
+    pid int PRIMARY KEY,
+    DiscountID INT,
+    DiscountAmount DOUBLE,
+    RequiredSpendAmount INT,
+    DiscountDescription TEXT,
+    CampaignID INT,
+    DiscountType TEXT,
+    PersonID INT,
+    FirstName TEXT,
+    LastName TEXT,
+    DOB TIMESTAMP,
+    RoleStatus TEXT,
+    RoleID INT,
+    AddressID INT,
+    StartDate TIMESTAMP,
+    EndDate TIMESTAMP,
+    Budget INT,
+    DemographicID INT,
+    CampaignType TEXT,
+    CampaignNotes TEXT,
+    AgeLowerLimit INT,
+    AgeUpperLimit INT,
+    TargetCity TEXT,
+    InteractionFrequencyType INT
+);
+
+
+
+
+
+
+
+
+--Person Insert Statements
+INSERT INTO mcdonald.DiscountMediaCampaign_Report (pid, PersonID, FirstName, LastName, DOB, RoleStatus, RoleID, AddressID) VALUES (2, 2, 'Hermione', 'Granger', '1979-09-19', 'Current', 2, 7);
+INSERT INTO mcdonald.DiscountMediaCampaign_Report (pid, PersonID, FirstName, LastName, DOB, RoleStatus, RoleID, AddressID) VALUES (3, 3, 'Ron', 'Weasley', '1980-03-01', 'Inactive', 4, 8);
+INSERT INTO mcdonald.DiscountMediaCampaign_Report (pid, PersonID, FirstName, LastName, DOB, RoleStatus, RoleID, AddressID) VALUES (4, 4, 'Albus', 'Dumbledore', '1981-03-01', 'Current', 4, 9);
+INSERT INTO mcdonald.DiscountMediaCampaign_Report (pid, PersonID, FirstName, LastName, DOB, RoleStatus, RoleID, AddressID) VALUES (5, 5, 'Severus', 'Snape', '1980-01-09', 'Current', 5, 10);
+INSERT INTO mcdonald.DiscountMediaCampaign_Report (pid, PersonID, FirstName, LastName, DOB, RoleStatus, RoleID, AddressID) VALUES (6, 6, 'Minerva', 'McGonagall', '1975-10-04', 'Current', 6, 11);
+INSERT INTO mcdonald.DiscountMediaCampaign_Report (pid, PersonID, FirstName, LastName, DOB, RoleStatus, RoleID, AddressID) VALUES (7, 7, 'Sirius', 'Black', '1979-11-03', 'Current', 7, 12);
+INSERT INTO mcdonald.DiscountMediaCampaign_Report (pid, PersonID, FirstName, LastName, DOB, RoleStatus, RoleID, AddressID) VALUES (8, 8, 'Remus', 'Lupin', '1980-03-10', 'Current', 8, 13);
+INSERT INTO mcdonald.DiscountMediaCampaign_Report (pid, PersonID, FirstName, LastName, DOB, RoleStatus, RoleID, AddressID) VALUES (9, 9, 'Draco', 'Malfoy', '1980-06-05', 'Inactive', 9, 10);
+INSERT INTO mcdonald.DiscountMediaCampaign_Report (pid, PersonID, FirstName, LastName, DOB, RoleStatus, RoleID, AddressID) VALUES (10, 10, 'Neville', 'Longbottom', '1980-07-30', 'Current', 10, 15);
+INSERT INTO mcdonald.DiscountMediaCampaign_Report (pid, PersonID, FirstName, LastName, DOB, RoleStatus, RoleID, AddressID) VALUES (11, 11, 'Luna', 'Lovegood', '1981-02-13', 'Current', 11, 16);
+INSERT INTO mcdonald.DiscountMediaCampaign_Report (pid, PersonID, FirstName, LastName, DOB, RoleStatus, RoleID, AddressID) VALUES (12, 12, 'Ginny', 'Weasley', '1981-08-11', 'Inactive', 12, 17);
+INSERT INTO mcdonald.DiscountMediaCampaign_Report (pid, PersonID, FirstName, LastName, DOB, RoleStatus, RoleID, AddressID) VALUES (13, 13, 'Fred', 'Weasley', '1978-04-01', 'Current', 13, 5);
+INSERT INTO mcdonald.DiscountMediaCampaign_Report (pid, PersonID, FirstName, LastName, DOB, RoleStatus, RoleID, AddressID) VALUES (14, 14, 'George', 'Weasley', '1978-04-01', 'Current', 14, 5);
+INSERT INTO mcdonald.DiscountMediaCampaign_Report (pid, PersonID, FirstName, LastName, DOB, RoleStatus, RoleID, AddressID) VALUES (15, 15, 'Molly', 'Weasley', '1969-10-30', 'Current', 15, 18);
+INSERT INTO mcdonald.DiscountMediaCampaign_Report (pid, PersonID, FirstName, LastName, DOB, RoleStatus, RoleID, AddressID) VALUES (16, 16, 'Arthur', 'Weasley', '1970-10-06', 'Current', 16, 18);
+INSERT INTO mcdonald.DiscountMediaCampaign_Report (pid, PersonID, FirstName, LastName, DOB, RoleStatus, RoleID, AddressID) VALUES (17, 17, 'Bellatrix', 'Lestrange', '1973-02-26', 'Current', 17, 20);
+INSERT INTO mcdonald.DiscountMediaCampaign_Report (pid, PersonID, FirstName, LastName, DOB, RoleStatus, RoleID, AddressID) VALUES (18, 18, 'Lucius', 'Malfoy', '1985-07-17', 'Inactive', 18, 21);
+INSERT INTO mcdonald.DiscountMediaCampaign_Report (pid, PersonID, FirstName, LastName, DOB, RoleStatus, RoleID, AddressID) VALUES (19, 19, 'Narcissa', 'Malfoy', '1975-06-05', 'Current', 19, 22);
+INSERT INTO mcdonald.DiscountMediaCampaign_Report (pid, PersonID, FirstName, LastName, DOB, RoleStatus, RoleID, AddressID) VALUES (20, 20, 'Peter', 'Pettigrew', '1980-08-01', 'Current', 20, 23);
+INSERT INTO mcdonald.DiscountMediaCampaign_Report (pid, PersonID, FirstName, LastName, DOB, RoleStatus, RoleID, AddressID) VALUES (21, 21, 'Horace', 'Slughorn', '1978-10-17', 'Current', 21, 24);
+INSERT INTO mcdonald.DiscountMediaCampaign_Report (pid, PersonID, FirstName, LastName, DOB, RoleStatus, RoleID, AddressID) VALUES (22, 22, 'Rubeus', 'Hagrid', '1968-12-06', 'Inactive', 3, 25);
+INSERT INTO mcdonald.DiscountMediaCampaign_Report (pid, PersonID, FirstName, LastName, DOB, RoleStatus, RoleID, AddressID) VALUES (23, 23, 'Dolores', 'Umbridge', '1985-08-26', 'N/A', 1, 26);
+INSERT INTO mcdonald.DiscountMediaCampaign_Report (pid, PersonID, FirstName, LastName, DOB, RoleStatus, RoleID, AddressID) VALUES (24, 24, 'Fleur', 'Delacour', '1997-10-30', 'N/A', 1, 27);
+INSERT INTO mcdonald.DiscountMediaCampaign_Report (pid, PersonID, FirstName, LastName, DOB, RoleStatus, RoleID, AddressID) VALUES (25, 25, 'Cedric', 'Diggory', '1997-07-08', 'N/A', 1, 28);
+INSERT INTO mcdonald.DiscountMediaCampaign_Report (pid, PersonID, FirstName, LastName, DOB, RoleStatus, RoleID, AddressID) VALUES (26, 26, 'Viktor', 'Krum', '1997-12-25', 'N/A', 1, 29);
+INSERT INTO mcdonald.DiscountMediaCampaign_Report (pid, PersonID, FirstName, LastName, DOB, RoleStatus, RoleID, AddressID) VALUES (27, 27, 'Cho', 'Chang', '1999-05-02', 'N/A', 1, 30);
+INSERT INTO mcdonald.DiscountMediaCampaign_Report (pid, PersonID, FirstName, LastName, DOB, RoleStatus, RoleID, AddressID) VALUES (28, 28, 'Lily', 'Potter', '1980-01-30', 'N/A', 1, 6);
+INSERT INTO mcdonald.DiscountMediaCampaign_Report (pid, PersonID, FirstName, LastName, DOB, RoleStatus, RoleID, AddressID) VALUES (29, 29, 'James', 'Potter', '1980-07-31', 'N/A', 1, 6);
+
+
+--Discount Insert Statements
+
+INSERT INTO mcdonald.DiscountMediaCampaign_Report (pid, DiscountID, DiscountAmount, RequiredSpendAmount, DiscountDescription, CampaignID, DiscountType) VALUES (1, 1, 0.015, 100, 'Wholesale Discount', null, 'Bulk');
+INSERT INTO mcdonald.DiscountMediaCampaign_Report (pid, DiscountID, DiscountAmount, RequiredSpendAmount, DiscountDescription, CampaignID, DiscountType) VALUES (2, 2, 0.01, 500, 'Wholesale Discount', null, 'Bulk');
+INSERT INTO mcdonald.DiscountMediaCampaign_Report (pid, DiscountID, DiscountAmount, RequiredSpendAmount, DiscountDescription, CampaignID, DiscountType) VALUES (3, 3, 0.02, 800, 'Wholesale Discount', null, 'Bulk');
+INSERT INTO mcdonald.DiscountMediaCampaign_Report (pid, DiscountID, DiscountAmount, RequiredSpendAmount, DiscountDescription, CampaignID, DiscountType) VALUES (4, 4, 0.06, 1000, 'Wholesale Discount', null, 'Bulk');
+INSERT INTO mcdonald.DiscountMediaCampaign_Report (pid, DiscountID, DiscountAmount, RequiredSpendAmount, DiscountDescription, CampaignID, DiscountType) VALUES (5, 5, 0.1, 20000, 'Wholesale Discount', null, 'Bulk');
+INSERT INTO mcdonald.DiscountMediaCampaign_Report (pid, DiscountID, DiscountAmount, RequiredSpendAmount, DiscountDescription, CampaignID, DiscountType) VALUES (6, 6, 0.12, 50000, 'Wholesale Discount', null, 'Bulk');
+INSERT INTO mcdonald.DiscountMediaCampaign_Report (pid, DiscountID, DiscountAmount, RequiredSpendAmount, DiscountDescription, CampaignID, DiscountType) VALUES (7, 7, 0.15, 100000, 'Wholesale Discount', null, 'Bulk');
+INSERT INTO mcdonald.DiscountMediaCampaign_Report (pid, DiscountID, DiscountAmount, RequiredSpendAmount, DiscountDescription, CampaignID, DiscountType) VALUES (8, 8, 0.1, 0, 'Social Media earned discount', 18, 'MFG');
+INSERT INTO mcdonald.DiscountMediaCampaign_Report (pid, DiscountID, DiscountAmount, RequiredSpendAmount, DiscountDescription, CampaignID, DiscountType) VALUES (9, 9, 0.1, 0, 'Social Media earned discount', 16, 'MFG');
+INSERT INTO mcdonald.DiscountMediaCampaign_Report (pid, DiscountID, DiscountAmount, RequiredSpendAmount, DiscountDescription, CampaignID, DiscountType) VALUES (10, 10, 0.2, 0, 'Social Media earned discount', 21, 'MFG');
+INSERT INTO mcdonald.DiscountMediaCampaign_Report (pid, DiscountID, DiscountAmount, RequiredSpendAmount, DiscountDescription, CampaignID, DiscountType) VALUES (11, 11, 0.5, 0, 'Social Media earned discount', 16, 'MFG');
+INSERT INTO mcdonald.DiscountMediaCampaign_Report (pid, DiscountID, DiscountAmount, RequiredSpendAmount, DiscountDescription, CampaignID, DiscountType) VALUES (12, 12, 0.25, 0, 'Social Media earned discount', 16, 'MFG');
+INSERT INTO mcdonald.DiscountMediaCampaign_Report (pid, DiscountID, DiscountAmount, RequiredSpendAmount, DiscountDescription, CampaignID, DiscountType) VALUES (13, 13, 0.25, 0, 'Social Media earned discount', 18, 'MFG');
+INSERT INTO mcdonald.DiscountMediaCampaign_Report (pid, DiscountID, DiscountAmount, RequiredSpendAmount, DiscountDescription, CampaignID, DiscountType) VALUES (14, 14, 0.1, 0, 'Social Media earned discount', 17, 'MFG');
+INSERT INTO mcdonald.DiscountMediaCampaign_Report (pid, DiscountID, DiscountAmount, RequiredSpendAmount, DiscountDescription, CampaignID, DiscountType) VALUES (15, 15, 0.2, 0, 'Social Media earned discount', 5, 'MFG');
+INSERT INTO mcdonald.DiscountMediaCampaign_Report (pid, DiscountID, DiscountAmount, RequiredSpendAmount, DiscountDescription, CampaignID, DiscountType) VALUES (16, 16, 0.5, 0, 'Social Media earned discount', 5, 'MFG');
+INSERT INTO mcdonald.DiscountMediaCampaign_Report (pid, DiscountID, DiscountAmount, RequiredSpendAmount, DiscountDescription, CampaignID, DiscountType) VALUES (17, 17, 0.25, 0, 'Social Media earned discount', 7, 'MFG');
+INSERT INTO mcdonald.DiscountMediaCampaign_Report (pid, DiscountID, DiscountAmount, RequiredSpendAmount, DiscountDescription, CampaignID, DiscountType) VALUES (18, 18, 0.25, 0, 'Social Media earned discount', 5, 'MFG');
+INSERT INTO mcdonald.DiscountMediaCampaign_Report (pid, DiscountID, DiscountAmount, RequiredSpendAmount, DiscountDescription, CampaignID, DiscountType) VALUES (19, 19, 1, 0, 'Birthday cookie', null, 'Free');
+INSERT INTO mcdonald.DiscountMediaCampaign_Report (pid, DiscountID, DiscountAmount, RequiredSpendAmount, DiscountDescription, CampaignID, DiscountType) VALUES (20, 20, 0.15, 50, 'Black Friday bulk buy discount', 9, 'Bulk');
+
+
+--MediaCampaign Insert Statements
+INSERT INTO mcdonald.DiscountMediaCampaign_Report (pid, DemographicID, AgeLowerLimit, AgeUpperLimit, TargetCity, InteractionFrequencyType) VALUES (1, 1, 24, 34, 'Plymouth', 1);	
+INSERT INTO mcdonald.DiscountMediaCampaign_Report (pid, DemographicID, AgeLowerLimit, AgeUpperLimit, TargetCity, InteractionFrequencyType) VALUES (2, 2, 23, 33, 'Lakeview', 4);	
+INSERT INTO mcdonald.DiscountMediaCampaign_Report (pid, DemographicID, AgeLowerLimit, AgeUpperLimit, TargetCity, InteractionFrequencyType) VALUES (3, 3, 21, 31, 'Prescott', 5);	
+INSERT INTO mcdonald.DiscountMediaCampaign_Report (pid, DemographicID, AgeLowerLimit, AgeUpperLimit, TargetCity, InteractionFrequencyType) VALUES (4, 4, 16, 26, 'Plymouth ', 2);	
+INSERT INTO mcdonald.DiscountMediaCampaign_Report (pid, DemographicID, AgeLowerLimit, AgeUpperLimit, TargetCity, InteractionFrequencyType) VALUES (5, 5, 18, 28, 'Plymouth ', 1);	
+INSERT INTO mcdonald.DiscountMediaCampaign_Report (pid, DemographicID, AgeLowerLimit, AgeUpperLimit, TargetCity, InteractionFrequencyType) VALUES (6, 6, 21, 31, 'Plymouth ', 3);	
+INSERT INTO mcdonald.DiscountMediaCampaign_Report (pid, DemographicID, AgeLowerLimit, AgeUpperLimit, TargetCity, InteractionFrequencyType) VALUES (7, 7, 22, 32, 'Plymouth ', 0);	
+INSERT INTO mcdonald.DiscountMediaCampaign_Report (pid, DemographicID, AgeLowerLimit, AgeUpperLimit, TargetCity, InteractionFrequencyType) VALUES (8, 8, 23, 43, 'Plymouth ', 2);	
+INSERT INTO mcdonald.DiscountMediaCampaign_Report (pid, DemographicID, AgeLowerLimit, AgeUpperLimit, TargetCity, InteractionFrequencyType) VALUES (9, 9, 19, 39, 'Plymouth ', 5);	
+INSERT INTO mcdonald.DiscountMediaCampaign_Report (pid, DemographicID, AgeLowerLimit, AgeUpperLimit, TargetCity, InteractionFrequencyType) VALUES (10, 10, 25, 45, 'Toronto', 5);	
+INSERT INTO mcdonald.DiscountMediaCampaign_Report (pid, DemographicID, AgeLowerLimit, AgeUpperLimit, TargetCity, InteractionFrequencyType) VALUES (11, 11, 22, 42, 'Toronto', 4);	
+INSERT INTO mcdonald.DiscountMediaCampaign_Report (pid, DemographicID, AgeLowerLimit, AgeUpperLimit, TargetCity, InteractionFrequencyType) VALUES (12, 12, 20, 40, 'Toronto', 5);	
+INSERT INTO mcdonald.DiscountMediaCampaign_Report (pid, DemographicID, AgeLowerLimit, AgeUpperLimit, TargetCity, InteractionFrequencyType) VALUES (13, 13, 29, 49, 'Toronto', 2);	
+INSERT INTO mcdonald.DiscountMediaCampaign_Report (pid, DemographicID, AgeLowerLimit, AgeUpperLimit, TargetCity, InteractionFrequencyType) VALUES (14, 14, 26, 46, 'Rio de Janeiro', 1);	
+INSERT INTO mcdonald.DiscountMediaCampaign_Report (pid, DemographicID, AgeLowerLimit, AgeUpperLimit, TargetCity, InteractionFrequencyType) VALUES (15, 15, 20, 40, 'Tokyo', 2);	
+INSERT INTO mcdonald.DiscountMediaCampaign_Report (pid, DemographicID, AgeLowerLimit, AgeUpperLimit, TargetCity, InteractionFrequencyType) VALUES (16, 16, 28, 48, 'Sydney', 5);	
+INSERT INTO mcdonald.DiscountMediaCampaign_Report (pid, DemographicID, AgeLowerLimit, AgeUpperLimit, TargetCity, InteractionFrequencyType) VALUES (17, 17, 25, 45, 'Cairo', 1);	
+INSERT INTO mcdonald.DiscountMediaCampaign_Report (pid, DemographicID, AgeLowerLimit, AgeUpperLimit, TargetCity, InteractionFrequencyType) VALUES (18, 18, 25, 45, 'Oslo', 4);	
+INSERT INTO mcdonald.DiscountMediaCampaign_Report (pid, DemographicID, AgeLowerLimit, AgeUpperLimit, TargetCity, InteractionFrequencyType) VALUES (19, 19, 25, 45, 'Mexico City', 3);	
+INSERT INTO mcdonald.DiscountMediaCampaign_Report (pid, DemographicID, AgeLowerLimit, AgeUpperLimit, TargetCity, InteractionFrequencyType) VALUES (20, 20, 20, 40, 'Johannesburg', 4);	
+INSERT INTO mcdonald.DiscountMediaCampaign_Report (pid, DemographicID, AgeLowerLimit, AgeUpperLimit, TargetCity, InteractionFrequencyType) VALUES (21, 21, 30, 50, 'Moscow', 1);	
+
+
+
+
+
+--CamppaignDemographic Insert Statements
+
+INSERT INTO mcdonald.DiscountMediaCampaign_Report (pid, CampaignID, StartDate, EndDate, Budget, PersonID, DemographicID, CampaignType, CampaignNotes) VALUES (1, 1, '2023-12-18', '2024-01-02', 8108943, 4, 14, 'Holiday', 'New Years Day');
+INSERT INTO mcdonald.DiscountMediaCampaign_Report (pid, CampaignID, StartDate, EndDate, Budget, PersonID, DemographicID, CampaignType, CampaignNotes) VALUES (2, 2, '2024-01-31', '2024-02-15', 1525077, 6, 18, 'Holiday', 'Valentines Day');
+INSERT INTO mcdonald.DiscountMediaCampaign_Report (pid, CampaignID, StartDate, EndDate, Budget, PersonID, DemographicID, CampaignType, CampaignNotes) VALUES (3, 3, '2024-03-17', '2024-04-01', 2223273, 5, 2, 'Holiday', 'Easter');
+INSERT INTO mcdonald.DiscountMediaCampaign_Report (pid, CampaignID, StartDate, EndDate, Budget, PersonID, DemographicID, CampaignType, CampaignNotes) VALUES (4, 4, '2024-05-13', '2024-05-28', 2414416, 6, 20, 'Holiday', 'Memorial Day');
+INSERT INTO mcdonald.DiscountMediaCampaign_Report (pid, CampaignID, StartDate, EndDate, Budget, PersonID, DemographicID, CampaignType, CampaignNotes) VALUES (5, 5, '2024-06-20', '2024-07-05', 7025427, 6, 18, 'Holiday', 'Independence Day');
+INSERT INTO mcdonald.DiscountMediaCampaign_Report (pid, CampaignID, StartDate, EndDate, Budget, PersonID, DemographicID, CampaignType, CampaignNotes) VALUES (6, 6, '2024-08-19', '2024-09-03', 7963942, 4, 9, 'Holiday', 'Labor Day');
+INSERT INTO mcdonald.DiscountMediaCampaign_Report (pid, CampaignID, StartDate, EndDate, Budget, PersonID, DemographicID, CampaignType, CampaignNotes) VALUES (7, 7, '2024-10-17', '2024-11-01', 3432531, 6, 17, 'Holiday', 'Halloween');
+INSERT INTO mcdonald.DiscountMediaCampaign_Report (pid, CampaignID, StartDate, EndDate, Budget, PersonID, DemographicID, CampaignType, CampaignNotes) VALUES (8, 8, '2024-11-14', '2024-11-23', 7696474, 6, 16, 'Holiday', 'Thanksgiving');
+INSERT INTO mcdonald.DiscountMediaCampaign_Report (pid, CampaignID, StartDate, EndDate, Budget, PersonID, DemographicID, CampaignType, CampaignNotes) VALUES (9, 9, '2024-11-15', '2024-11-24', 2382533, 5, 10, 'Holiday', 'Black Friday');
+INSERT INTO mcdonald.DiscountMediaCampaign_Report (pid, CampaignID, StartDate, EndDate, Budget, PersonID, DemographicID, CampaignType, CampaignNotes) VALUES (10, 10, '2024-12-11', '2024-12-26', 292630, 5, 18, 'Holiday', 'Christmas');
+INSERT INTO mcdonald.DiscountMediaCampaign_Report (pid, CampaignID, StartDate, EndDate, Budget, PersonID, DemographicID, CampaignType, CampaignNotes) VALUES (11, 11, '2024-02-04', '2024-02-20', 484627, 5, 5, 'Holiday', 'Presidents Day');
+INSERT INTO mcdonald.DiscountMediaCampaign_Report (pid, CampaignID, StartDate, EndDate, Budget, PersonID, DemographicID, CampaignType, CampaignNotes) VALUES (12, 12, '2024-06-01', '2024-08-31', 455202, 4, 4, 'Seasonal', 'Summer');
+INSERT INTO mcdonald.DiscountMediaCampaign_Report (pid, CampaignID, StartDate, EndDate, Budget, PersonID, DemographicID, CampaignType, CampaignNotes) VALUES (13, 13, '2024-03-01', '2024-05-31', 7068652, 4, 17, 'Seasonal', 'Spring');
+INSERT INTO mcdonald.DiscountMediaCampaign_Report (pid, CampaignID, StartDate, EndDate, Budget, PersonID, DemographicID, CampaignType, CampaignNotes) VALUES (14, 14, '2024-09-01', '2024-11-30', 1187622, 4, 19, 'Seasonal', 'Fall');
+INSERT INTO mcdonald.DiscountMediaCampaign_Report (pid, CampaignID, StartDate, EndDate, Budget, PersonID, DemographicID, CampaignType, CampaignNotes) VALUES (15, 15, '2024-12-01', '2024-02-29', 4548281, 5, 12, 'Seasonal', 'Winter');
+INSERT INTO mcdonald.DiscountMediaCampaign_Report (pid, CampaignID, StartDate, EndDate, Budget, PersonID, DemographicID, CampaignType, CampaignNotes) VALUES (16, 16, '2023-11-12', '2024-01-26', 2293409, 6, 18, 'Movie Release', 'Mean Girls');
+INSERT INTO mcdonald.DiscountMediaCampaign_Report (pid, CampaignID, StartDate, EndDate, Budget, PersonID, DemographicID, CampaignType, CampaignNotes) VALUES (17, 17, '2024-05-03', '2024-07-17', 5518590, 4, 13, 'Movie Release', 'Minions');
+INSERT INTO mcdonald.DiscountMediaCampaign_Report (pid, CampaignID, StartDate, EndDate, Budget, PersonID, DemographicID, CampaignType, CampaignNotes) VALUES (18, 18, '2024-03-24', '2024-06-07', 4543334, 6, 7, 'Movie Release', 'Garfield');
+INSERT INTO mcdonald.DiscountMediaCampaign_Report (pid, CampaignID, StartDate, EndDate, Budget, PersonID, DemographicID, CampaignType, CampaignNotes) VALUES (19, 19, '2024-04-14', '2024-06-28', 2630452, 6, 8, 'Movie Release', 'Inside Out 2');
+INSERT INTO mcdonald.DiscountMediaCampaign_Report (pid, CampaignID, StartDate, EndDate, Budget, PersonID, DemographicID, CampaignType, CampaignNotes) VALUES (20, 20, '2024-05-26', '2024-08-09', 3233797, 6, 8, 'Movie Release', 'Deadpool');
+INSERT INTO mcdonald.DiscountMediaCampaign_Report (pid, CampaignID, StartDate, EndDate, Budget, PersonID, DemographicID, CampaignType, CampaignNotes) VALUES (21, 21, '2024-05-26', '2024-08-09', 4636422, 4, 3, 'Movie Release', 'Deadpool');
