@@ -89,8 +89,8 @@ CREATE TABLE IF NOT EXISTS mcdonald.MediaCampaign (
     Budget INT,
     PersonID INT,
     DemographicID INT,
-    CampaignType INT,
-    CampaignNotes INT
+    CampaignType TEXT,
+    CampaignNotes TEXT
 );
 
 
